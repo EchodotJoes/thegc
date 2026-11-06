@@ -1,0 +1,46 @@
+{
+  "playlists": [
+    {
+      "id": "Bloons Tower Defense Games",
+      "parent": null,
+      "name": "Bloons Tower Defense Games",
+      "icon": "assets/icons/Bloons Tower Defense Games.png"
+    },
+    {
+      "id": "Rhythm Games",
+      "parent": null,
+      "name": "Rhythm Games",
+      "icon": "assets/icons/Rhythm Games.png"
+    }
+  ],
+  "programs": [
+    {
+      "title": "Bloons TD 5",
+      "playlist": "Bloons Tower Defense Games",
+      "type": "swf",
+      "path": "programs/Bloons Tower Defense Games/Bloons TD 5/bloons-tower-defense-5.swf",
+      "icon": "assets/icons/Bloons TD 5.jpg"
+    },
+    {
+      "title": "FNAF World",
+      "playlist": null,
+      "type": "url",
+      "path": "https://echodotjoes.github.io/fnafworld/",
+      "icon": "assets/icons/FNAF World.ico"
+    },
+    {
+      "title": "Geometry Dash",
+      "playlist": "Rhythm Games",
+      "type": "html",
+      "path": "programs/Rhythm Games/Geometry Dash/index.html",
+      "icon": "assets/icons/Geometry Dash.ico"
+    },
+    {
+      "title": "Just Shapes & Beats",
+      "playlist": "Rhythm Games",
+      "type": "html",
+      "path": "programs/Rhythm Games/Just Shapes & Beats/index.html",
+      "icon": "assets/icons/Just Shapes & Beats.webp"
+    }
+  ]
+}

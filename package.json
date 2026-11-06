@@ -1,0 +1,8 @@
+{
+  "name": "thelist",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-manifest.mjs",
+    "test": "node scripts/local-server.mjs"
+  }
+}

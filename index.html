@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Game Catalog</title>
+    <link rel="icon" href="favicon.svg">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  </head>
+  <body>
+    <header>
+      <h1>The Game Catalog</h1>
+    </header>
+
+    <main>
+      <nav id="breadcrumbs" aria-label=""></nav>
+      <div class="folder-heading">
+        <h2 id="category-title"> </h2>
+        <button id="exit-playlist" type="button" hidden aria-label="Exit playlist" title="Exit playlist">X</button>
+      </div>
+      <div id="program-list" class="program-list"></div>
+    </main>
+
+    <dialog id="player">
+      <div class="player-controls">
+        <button id="fullscreen-player" aria-label="Open fullscreen" title="Fullscreen">⛶</button>
+        <button id="close-player" aria-label="Close player" title="Close">X</button>
+      </div>
+      <h2 id="player-title"></h2>
+      <div id="player-content"></div>
+    </dialog>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
